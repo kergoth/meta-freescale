@@ -7,7 +7,7 @@ LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=daa2bcccc666345ab8940aab1315a4fa"
 
 DEPENDS = "optee-os optee-client python-pycrypto-native openssl"
-inherit python3native
+inherit pythonnative
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
